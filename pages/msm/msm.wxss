@@ -1,0 +1,47 @@
+/* pages/msm/msm.wxss */
+
+/**index.wxss**/
+
+.swiper-tab {
+  position: fixed;
+  width: 100%;
+  border-bottom: 2rpx solid #8a8a8a;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 33.33%;
+  color: #8a8a8a;
+}
+
+.on {
+  color: #1ba59e;
+  border-bottom: 5rpx solid #1ba59e;
+}
+
+.swiper-box {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-box view {
+
+  text-align: center;
+}
+
+.no-msm{
+  position: fixed;
+  width: 100%;
+  height: 200rpx;
+  padding-top: 400rpx;
+  text-align: center;
+}
+.no-msm image{
+    width: 200rpx;
+    height: 100%;
+}
